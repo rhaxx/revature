@@ -1,0 +1,22 @@
+package com.revature;
+
+public class Primitives {
+	
+	int a; // 4 bytes = 32 bits
+	boolean bo; // t or f
+	char c; // 2 bytes = 16 bits, single character values held in ' '
+	double d; // 8 bytes = 64 bits, decimal values
+	long l; // 8 bytes = 64, whole number values
+	float f; // 4 bytes = 32 bits, a double but smaller, more precise
+	short s; // 2 bytes = 16 bits, whole number
+	byte by; // 1 byte = 8 bits
+	
+	static void numberBases() {
+		int dec = 10;
+		System.out.println(dec);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

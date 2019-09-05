@@ -1,0 +1,36 @@
+package com.revature;
+
+public class Primitives {
+	
+	int a; // 4 bytes = 32 bits
+	boolean bo; // t or f
+	char c; // 2 bytes = 16 bits, single character values held in ' '
+	double d; // 8 bytes = 64 bits, decimal values
+	long l; // 8 bytes = 64, whole number values
+	float f; // 4 bytes = 32 bits, a double but smaller, more precise
+	short s; // 2 bytes = 16 bits, whole number
+	byte by; // 1 byte = 8 bits
+	
+	static void numberBases() {
+		// decimal
+		int dec = 10;
+		System.out.println(dec);
+		// binary (base 2; 0-1; 0b or 0B before number)
+		int bin = 0b10111110;
+		System.out.println(bin);
+		// octal (base 8; 0-7; preface digits with 0)
+		int oct = 010;
+		System.out.println(oct);
+		// hexadecimal (base 16, 0-9 and a-f)
+		int hex = 0xa314f;
+		System.out.println(hex);
+	}
+	
+	static void numberFormatting() {
+		int largeNum = 1_000_000; // no underscore at the start
+	}
+	
+	public static void main(String[] args) {
+		numberBases();
+	}
+}

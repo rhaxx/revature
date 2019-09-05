@@ -1,0 +1,37 @@
+package com.revature;
+
+public class Operators {
+	/*
+	 * an operator is a special symbol that can be applied to a set of variables
+	 * values, or literals, referred to as operands
+	 * unary, binary, ternary operators
+	 */
+	
+	public static void main(String[] args) {
+		//----------------unary-----------------------------------------------------
+		
+		//----------------incrementation/decremetation------------------------------
+		int x = 5;
+		++x;
+		x++;
+		--x;
+		x--;
+		
+		//----------------twos complement-------------------------------------------
+		x = ~x; // -(n+1)
+		
+		//---------------negate, positive, and opposite-----------------------------
+		x = -x;
+		x = +x;
+		boolean y = true;
+		y = !y;
+		
+		//-----------------binary---------------------------------------------------
+		int x = a + b;
+		
+		
+	}
+	
+	
+	
+}

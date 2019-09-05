@@ -1,0 +1,9 @@
+package com.revature;
+
+public class GarbageCollection {
+
+	/*
+	 * Included memory management
+	 * A daemon thread (a thread that never dies)
+	 */
+}
