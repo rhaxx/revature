@@ -81,3 +81,31 @@ String words = "HELLO!";
 
 are the ways to create strings
 strings are immutable and can't be changed
+
+## Arrays
+
+sorting, as list, etc very important methods to keep in mind
+
+## Exception Handling
+
+whenever you don't handle exceptions, your code will stop running
+when it does something it can't really handle during run time
+exception handling lets you continue running your code even if there
+is some sort of error in it during runtime
+
+throwable has two children
+error and exception
+
+exception has one child, runtime exception
+
+everything that is throwable can be caught,
+so error can be caught and exception can be caught
+
+exception can be "fixed"
+error can't be "fixed"
+
+an exception is something the coder can see in order to prepare
+his/her code for tricky situations
+
+runtimeExceptions are rather trickier so they can go unchecked
+and occur naturally
