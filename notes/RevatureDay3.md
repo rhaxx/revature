@@ -109,3 +109,15 @@ his/her code for tricky situations
 
 runtimeExceptions are rather trickier so they can go unchecked
 and occur naturally
+
+## try and catch blocks
+
+try {
+    // risky code here that would stop
+}
+catch(Exception e) {
+    // catching it and reporting it
+    // the most general form of catching an exception
+    // place other exceptions above this one
+}
+// rest of the code runnnns
