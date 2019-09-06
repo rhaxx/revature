@@ -1,0 +1,9 @@
+package com.revature.collections;
+
+public class UnderstandingCollections {
+
+	public static void main(String[] args) {
+		
+		Set<String> mySet = new Set();
+	}
+}

@@ -121,3 +121,66 @@ catch(Exception e) {
     // place other exceptions above this one
 }
 // rest of the code runnnns
+
+## error vs exception
+
+they both extend throwable so they can be thrown at runtime
+
+errors can't be programmatically recovered from
+errors should not be caught because of this
+
+## Input and Output to a file
+
+CHECKED EXCEPTIONS MUST BE HANDLED
+mainly happens when dealing with IO libraries of java
+in order to fix this or to handle it, the problem can be passed
+on by "throws" it to make it another methods problem
+in this case, it's best to use a try and catch block in order
+to handle the exception before it occurs (anticipated)
+
+throw indicates that you have made your own exception and you
+would like the JVM to throw it when someone uses your method
+throw is inside of a method where as throws is after a method
+signature
+
+catching it- ducking it (propogating it)-
+
+## throw vs throws
+
+throw new Exception
+methodA() throws exception
+
+## Custom Exceptions
+
+extends the Exception class and write your own exception
+uses of your code can use your exception as well
+
+try {
+
+}
+catch() {
+
+}finally{
+
+}
+
+try must have a catch or finally block
+finally is used to close databases files and network connections
+
+finally blocks of code will always execute unless some fatal error occurs
+
+you will hardly ever see finally used because of something called auto
+closable
+
+## Data Structures
+
+collections-
+list, set, and queues
+
+maps, iterable, comparable
+
+team 2 is sets!!! lets go!!!
+interface, definitions, describe high level each of the classes that implement these sets
+
+ArrayList<E>;
+ArrayList<Integer> myNums = new ArrayList<Integer>();

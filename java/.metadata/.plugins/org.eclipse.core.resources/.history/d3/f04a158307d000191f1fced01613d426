@@ -1,0 +1,25 @@
+package com.revature.exceptions;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class UnderstandingExceptions {
+
+	static Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
+		run();
+	}
+	
+	static void run() {
+		System.out.println("Enter a number: ");
+		try {
+			String str = scanner.nextLine();
+			int num = Integer.parseInt(str);
+			System.out.println("you entered " + num);
+		}
+		catch(InputMismatchException e) {
+			System.out.println("You entered an invalid value, please try again!");
+			run();
+		}
+	}
+}

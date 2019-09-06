@@ -1,0 +1,21 @@
+package com.revature.collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class UnderstandingCollections {
+
+	public static void main(String[] args) {
+		
+		Set<String> mySet = new HashSet<String>();
+		mySet.add("Hello");
+		mySet.add("my");
+		mySet.add("name");
+		mySet.add("is");
+		mySet.add("is");
+		mySet.add("Rex");
+		
+		Set<String> mySet2 = new HashSet<String>("Hello", "my", "name", "is", "Rex");
+		
+	}
+}
