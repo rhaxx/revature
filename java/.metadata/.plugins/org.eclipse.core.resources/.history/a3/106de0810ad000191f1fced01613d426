@@ -1,8 +1,0 @@
-package com.revature.io;
-
-public class IntroToIO {
-
-	static void writeString(String text, String filepath) {
-		BufferedWriter bw = new BufferedWriter(new FileWriter(filepath));
-	}
-}
