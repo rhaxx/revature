@@ -1,3 +1,11 @@
 # 9/6/2019
 
-Collectionss
+## Comparator vs Comparable
+
+Comparator is a classed that can be extended
+by your class to allow object comparison, as many
+compare's as you want
+
+Comparable is also a class that can be extended
+by your class but then it needs to override the
+compareTo method

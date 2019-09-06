@@ -39,7 +39,9 @@ public class UnderstandingCollections {
 	
 	static void setTree() {
 		/*
-		 * 
+		 * HashSet does not keep track of the order
+		 * that the elements are adding in.
+		 * completely random.
 		 */
 		Set<String> myTreeSet = new TreeSet<String>();
 		myTreeSet.add("Hello"); 				 			   // 1
