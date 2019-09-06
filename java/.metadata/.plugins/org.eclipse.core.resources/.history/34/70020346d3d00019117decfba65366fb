@@ -9,7 +9,7 @@ import java.util.Set;
 public class UnderstandingCollections {
 
 	public static void main(String[] args) {
-		listLinked();
+		
 	}
 	
 	static void setHash() {
@@ -36,27 +36,11 @@ public class UnderstandingCollections {
 		}
 	}
 	
-	static void listLinked() {
+	static void list() {
 		/*
 		 * A list is an ordered collection
-		 * it can have duplicates
-		 * things can be added at any index
-		 * 
-		 * the output of the sysout should be the 
-		 * string backwards because it was added
-		 * to the front of the list, every time
 		 */
 		List<String> myLinkedList = new LinkedList<String>();
 		myLinkedList.add("Hello");
-		myLinkedList.add(0, "my"); // placing them at the beginning
-		myLinkedList.add(0, "name");
-		myLinkedList.add(0, "is");
-		myLinkedList.add(0, "Rex");
-		myLinkedList.add(0, "Rex");
-		System.out.println(myLinkedList.size());
-		Iterator<String> myLinkedListIterator = myLinkedList.iterator();
-		while(myLinkedListIterator.hasNext()) {
-			System.out.println(myLinkedListIterator.next().toUpperCase()); // should be backwards
-		}
 	}
 }

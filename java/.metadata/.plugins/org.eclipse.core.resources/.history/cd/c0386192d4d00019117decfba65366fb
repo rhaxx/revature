@@ -41,10 +41,6 @@ public class UnderstandingCollections {
 		 * A list is an ordered collection
 		 * it can have duplicates
 		 * things can be added at any index
-		 * 
-		 * the output of the sysout should be the 
-		 * string backwards because it was added
-		 * to the front of the list, every time
 		 */
 		List<String> myLinkedList = new LinkedList<String>();
 		myLinkedList.add("Hello");
@@ -56,7 +52,7 @@ public class UnderstandingCollections {
 		System.out.println(myLinkedList.size());
 		Iterator<String> myLinkedListIterator = myLinkedList.iterator();
 		while(myLinkedListIterator.hasNext()) {
-			System.out.println(myLinkedListIterator.next().toUpperCase()); // should be backwards
+			System.out.println(myLinkedListIterator.next().toUpperCase());
 		}
 	}
 }
