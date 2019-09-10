@@ -39,7 +39,7 @@ package- create .jar (java archive) or .war (web archive)- compressed compiled a
 test- runs unit tests
 Dependency manager
 15.1 Million Artifacts up in the cloud for your use
-local maven repository -> .m2
+local maven repository -> .m2 
 maven central repository is in the cloud
 
 Using Maven!

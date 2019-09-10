@@ -2,23 +2,48 @@ Java
 
 What is Java? / Why Java?
 What is JRE / JDK / JVM?
+-Java is an object oriented programming language.
+-It's free.
+-Portable.
+-Rich API.
+-Backed up by Oracle.
+-No "pointers."
+-JDK: Java Development Kit contains the JRE and development tools like the compiler.
+-JRE: Java Runtime Environment contains the JVM and library classes.
+-JVM: Java Virtual Machine is where compiled java code can be executed.
 
 What is an object / class?
+-A class is like a contract that outlines varioues states and behaviours.
+-An object is an actual instance of a class.
 
 What is the root class from which every class extends?
+-The Object class is the root class of all classes.
 
 What are the 4 pillars of OOP / Explain each?
+-Inheritance: The ability for a child class to extend and "inherit" the states and behaviours of a parent class.
+-Encapsulation: The ability to restrict access to data within certain classes at various levels.
+-Polymorphism: The ability to overload and override methods of a parent class by using a child class.
+-Abstraction: The ability to give an application a high level overview without showing how things happen behind the scenes.
 
 What is the difference between an abstract class and an interface?
+-An abstract class needs to be extended.
+-An interface needs to be implemented.
 
 What are the implicit modifiers for interface variables?
+-public, static, and final
 
 What are the primitive data types in Java?
+-char, float, double, int, boolean, byte, long, void, short
 
 What is the difference between method overloading and overriding?
-
+-overriding is when a child class extends a parent class and rewrites the implementation of a method with the same signature.
+-overloading is when a class' method is written with the same name but different method signature: different number of parameters,
+paramater types, different return type, etc.
 
 Difference between extends and implements?
+-extends is used by a child to inherit from a parent class, be it abstract or not.
+-implements is used to define the various methods of an interface by creating a new
+class that would then implement that interface.
 
 What are collections in Java?
 
